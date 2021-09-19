@@ -8,23 +8,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/MidiProcessor.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/MidiProcessor.cpp.o"
-  "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/PluginEditor.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/PluginEditor.cpp.o"
-  "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/PluginProcessor.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/PluginProcessor.cpp.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_audio_basics/juce_audio_basics.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_audio_devices/juce_audio_devices.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_audio_formats/juce_audio_formats.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_audio_processors/juce_audio_processors.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_audio_utils/juce_audio_utils.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_core/juce_core.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_core/juce_core.mm.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_data_structures/juce_data_structures.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_data_structures/juce_data_structures.mm.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_events/juce_events.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_events/juce_events.mm.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_graphics/juce_graphics.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_graphics/juce_graphics.mm.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_gui_basics/juce_gui_basics.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o"
-  "/Users/edwardgallyot/JUCE/modules/juce_gui_extra/juce_gui_extra.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/Users/edwardgallyot/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/MidiProcessor.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/MidiProcessor.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/PluginEditor.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/PluginEditor.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/PluginProcessor.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/PluginProcessor.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_core/juce_core.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_core/juce_core.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_data_structures/juce_data_structures.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_data_structures/juce_data_structures.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_events/juce_events.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_events/juce_events.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_graphics/juce_graphics.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_graphics/juce_graphics.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.o"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -58,7 +58,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"
   "JucePlugin_AUSubType=JucePlugin_PluginCode"
   "JucePlugin_Build_AAX=0"
-  "JucePlugin_Build_AU=1"
+  "JucePlugin_Build_AU=0"
   "JucePlugin_Build_AUv3=0"
   "JucePlugin_Build_Standalone=1"
   "JucePlugin_Build_Unity=0"
@@ -85,14 +85,20 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "JucePlugin_VersionString=\"0.0.1\""
   "JucePlugin_Vst3Category=\"Fx\""
   "JucePlugin_WantsMidiInput=1"
+  "LINUX=1"
   "_DEBUG=1"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "Ed_Midi_Test_artefacts/JuceLibraryCode"
-  "/Users/edwardgallyot/JUCE/modules"
-  "/Users/edwardgallyot/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules"
+  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"
+  "/usr/include/freetype2"
+  "/usr/include/libpng16"
+  "/usr/include/harfbuzz"
+  "/usr/include/glib-2.0"
+  "/usr/lib/glib-2.0/include"
   )
 
 # The set of dependency files which are needed:

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+144b9e7f008bcfb9599b362084304662 Ed_Midi_Test_artefacts/JuceLibraryCode/JuceHeader.h

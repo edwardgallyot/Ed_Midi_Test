@@ -8,18 +8,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp.o"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_1.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_1.cpp.o"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_2.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_2.cpp.o"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_3.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_3.cpp.o"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_4.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_4.cpp.o"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_utils.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_utils.cpp.o"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp" "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_1.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_1.cpp.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_2.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_2.cpp.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_3.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_3.cpp.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_4.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_4.cpp.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_utils.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_utils.mm.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST_utils.mm" "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test_VST3.dir/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST_utils.mm.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -80,20 +84,14 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "JucePlugin_VersionString=\"0.0.1\""
   "JucePlugin_Vst3Category=\"Fx\""
   "JucePlugin_WantsMidiInput=1"
-  "LINUX=1"
   "_DEBUG=1"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "Ed_Midi_Test_artefacts/JuceLibraryCode"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules"
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"
-  "/usr/include/freetype2"
-  "/usr/include/libpng16"
-  "/usr/include/harfbuzz"
-  "/usr/include/glib-2.0"
-  "/usr/lib/glib-2.0/include"
+  "/Users/edwardgallyot/JUCE/modules"
+  "/Users/edwardgallyot/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"
   )
 
 # The set of dependency files which are needed:
@@ -102,7 +100,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/DependInfo.cmake"
+  "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/CMakeFiles/Ed_Midi_Test.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

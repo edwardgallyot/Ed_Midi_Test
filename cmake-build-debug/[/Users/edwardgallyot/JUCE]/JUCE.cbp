@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="JUCE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\;CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\;CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_AU\;CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_Standalone\;CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_VST3\;CMake Files\cmake-build-debug\[\;CMake Files\cmake-build-debug\[\Users\;CMake Files\cmake-build-debug\[\Users\edwardgallyot\;CMake Files\cmake-build-debug\[\Users\edwardgallyot\JUCE]\;CMake Files\cmake-build-debug\[\Users\edwardgallyot\JUCE]\tools\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\JUCE\;CMake Files\..\..\JUCE\extras\;CMake Files\..\..\JUCE\extras\Build\;CMake Files\..\..\JUCE\extras\Build\CMake\;CMake Files\..\..\JUCE\extras\Build\juceaide\;CMake Files\..\..\JUCE\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/[/Users/edwardgallyot/JUCE]"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/[/Users/edwardgallyot/JUCE]/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/[/Users/edwardgallyot/JUCE]/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/[/Users/edwardgallyot/JUCE]/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/[/Users/edwardgallyot/JUCE]/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_AU/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_AU\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_Standalone/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_Standalone\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_VST3/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_VST3\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/[/Users/edwardgallyot/JUCE]/tools/JUCEToolsExport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\[\Users\edwardgallyot\JUCE]\tools\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\JUCE\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCECheckAtomic.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEConfig.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEHelperTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEModuleSupport.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/juceaide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\juceaide\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\JUCE\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

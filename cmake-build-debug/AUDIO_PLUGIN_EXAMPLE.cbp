@@ -5,448 +5,582 @@
 		<Option title="AUDIO_PLUGIN_EXAMPLE"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\JUCE\;CMake Files\..\..\JUCE\extras\;CMake Files\..\..\JUCE\extras\Build\;CMake Files\..\..\JUCE\extras\Build\CMake\;CMake Files\..\..\JUCE\extras\Build\juceaide\;CMake Files\..\..\JUCE\modules\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\[\;CMake Files\cmake-build-debug\[\home\;CMake Files\cmake-build-debug\[\home\edgallyot\;CMake Files\cmake-build-debug\[\home\edgallyot\drives\;CMake Files\cmake-build-debug\[\home\edgallyot\drives\2TB_SSD\;CMake Files\cmake-build-debug\[\home\edgallyot\drives\2TB_SSD\Documents\;CMake Files\cmake-build-debug\[\home\edgallyot\drives\2TB_SSD\Documents\JUCE]\;CMake Files\cmake-build-debug\[\home\edgallyot\drives\2TB_SSD\Documents\JUCE]\tools\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\;CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\;CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_AU\;CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_Standalone\;CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_VST3\;CMake Files\cmake-build-debug\[\;CMake Files\cmake-build-debug\[\Users\;CMake Files\cmake-build-debug\[\Users\edwardgallyot\;CMake Files\cmake-build-debug\[\Users\edwardgallyot\JUCE]\;CMake Files\cmake-build-debug\[\Users\edwardgallyot\JUCE]\tools\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\JUCE\;CMake Files\..\..\JUCE\extras\;CMake Files\..\..\JUCE\extras\Build\;CMake Files\..\..\JUCE\extras\Build\CMake\;CMake Files\..\..\JUCE\extras\Build\juceaide\;CMake Files\..\..\JUCE\modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install/local">
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install">
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ed_Midi_Test_VST3">
-				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/VST3/Ed_Midi_Test.vst3/Contents/x86_64-linux/Ed_Midi_Test.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="3"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
-					<Add option="-DDEBUG=1"/>
-					<Add option="-D_DEBUG=1"/>
-					<Add option="-DJucePlugin_IsSynth=0"/>
-					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
-					<Add option="-DJucePlugin_Manufacturer=&quot;YeahBoi&quot;"/>
-					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
-					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
-					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
-					<Add option="-DJucePlugin_ProducesMidiOutput=1"/>
-					<Add option="-DJucePlugin_IsMidiEffect=0"/>
-					<Add option="-DJucePlugin_WantsMidiInput=1"/>
-					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
-					<Add option="-DJucePlugin_Name=&quot;Ed_Midi_Test&quot;"/>
-					<Add option="-DJucePlugin_Desc=&quot;Ed_Midi_Test&quot;"/>
-					<Add option="-DJucePlugin_Version=0.0.1"/>
-					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
-					<Add option="-DJucePlugin_VersionCode=0x1"/>
-					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
-					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
-					<Add option="-DJucePlugin_AUMainType=&apos;aumf&apos;"/>
-					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_AUExportPrefix=Ed_Midi_TestAU"/>
-					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Ed_Midi_TestAU&quot;"/>
-					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
-					<Add option="-DJucePlugin_CFBundleIdentifier=com.YeahBoi.Ed_Midi_Test"/>
-					<Add option="-DJucePlugin_AAXIdentifier=com.YeahBoi.Ed_Midi_Test"/>
-					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
-					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_AAXCategory=0"/>
-					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
-					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
-					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
-					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
-					<Add option="-DJUCE_WEB_BROWSER=0"/>
-					<Add option="-DJUCE_USE_CURL=0"/>
-					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
-					<Add option="-DLINUX=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
-					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
-					<Add option="-DJucePlugin_Build_AU=0"/>
-					<Add option="-DJucePlugin_Build_AUv3=0"/>
-					<Add option="-DJucePlugin_Build_AAX=0"/>
-					<Add option="-DJucePlugin_Build_Standalone=0"/>
-					<Add option="-DJucePlugin_Build_Unity=0"/>
-					<Add option="-DJucePlugin_Build_VST=0"/>
-					<Add option="-DJucePlugin_Build_VST3=1"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
-					<Add directory="/usr/include/freetype2"/>
-					<Add directory="/usr/include/libpng16"/>
-					<Add directory="/usr/include/harfbuzz"/>
-					<Add directory="/usr/include/glib-2.0"/>
-					<Add directory="/usr/lib/glib-2.0/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_VST3"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ed_Midi_Test_VST3/fast">
-				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/VST3/Ed_Midi_Test.vst3/Contents/x86_64-linux/Ed_Midi_Test.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="3"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
-					<Add option="-DDEBUG=1"/>
-					<Add option="-D_DEBUG=1"/>
-					<Add option="-DJucePlugin_IsSynth=0"/>
-					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
-					<Add option="-DJucePlugin_Manufacturer=&quot;YeahBoi&quot;"/>
-					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
-					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
-					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
-					<Add option="-DJucePlugin_ProducesMidiOutput=1"/>
-					<Add option="-DJucePlugin_IsMidiEffect=0"/>
-					<Add option="-DJucePlugin_WantsMidiInput=1"/>
-					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
-					<Add option="-DJucePlugin_Name=&quot;Ed_Midi_Test&quot;"/>
-					<Add option="-DJucePlugin_Desc=&quot;Ed_Midi_Test&quot;"/>
-					<Add option="-DJucePlugin_Version=0.0.1"/>
-					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
-					<Add option="-DJucePlugin_VersionCode=0x1"/>
-					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
-					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
-					<Add option="-DJucePlugin_AUMainType=&apos;aumf&apos;"/>
-					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_AUExportPrefix=Ed_Midi_TestAU"/>
-					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Ed_Midi_TestAU&quot;"/>
-					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
-					<Add option="-DJucePlugin_CFBundleIdentifier=com.YeahBoi.Ed_Midi_Test"/>
-					<Add option="-DJucePlugin_AAXIdentifier=com.YeahBoi.Ed_Midi_Test"/>
-					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
-					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_AAXCategory=0"/>
-					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
-					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
-					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
-					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
-					<Add option="-DJUCE_WEB_BROWSER=0"/>
-					<Add option="-DJUCE_USE_CURL=0"/>
-					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
-					<Add option="-DLINUX=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
-					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
-					<Add option="-DJucePlugin_Build_AU=0"/>
-					<Add option="-DJucePlugin_Build_AUv3=0"/>
-					<Add option="-DJucePlugin_Build_AAX=0"/>
-					<Add option="-DJucePlugin_Build_Standalone=0"/>
-					<Add option="-DJucePlugin_Build_Unity=0"/>
-					<Add option="-DJucePlugin_Build_VST=0"/>
-					<Add option="-DJucePlugin_Build_VST3=1"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
-					<Add directory="/usr/include/freetype2"/>
-					<Add directory="/usr/include/libpng16"/>
-					<Add directory="/usr/include/harfbuzz"/>
-					<Add directory="/usr/include/glib-2.0"/>
-					<Add directory="/usr/lib/glib-2.0/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_VST3/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ed_Midi_Test_Standalone">
-				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/Standalone/Ed_Midi_Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="0"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
-					<Add option="-DDEBUG=1"/>
-					<Add option="-D_DEBUG=1"/>
-					<Add option="-DJucePlugin_IsSynth=0"/>
-					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
-					<Add option="-DJucePlugin_Manufacturer=&quot;YeahBoi&quot;"/>
-					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
-					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
-					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
-					<Add option="-DJucePlugin_ProducesMidiOutput=1"/>
-					<Add option="-DJucePlugin_IsMidiEffect=0"/>
-					<Add option="-DJucePlugin_WantsMidiInput=1"/>
-					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
-					<Add option="-DJucePlugin_Name=&quot;Ed_Midi_Test&quot;"/>
-					<Add option="-DJucePlugin_Desc=&quot;Ed_Midi_Test&quot;"/>
-					<Add option="-DJucePlugin_Version=0.0.1"/>
-					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
-					<Add option="-DJucePlugin_VersionCode=0x1"/>
-					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
-					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
-					<Add option="-DJucePlugin_AUMainType=&apos;aumf&apos;"/>
-					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_AUExportPrefix=Ed_Midi_TestAU"/>
-					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Ed_Midi_TestAU&quot;"/>
-					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
-					<Add option="-DJucePlugin_CFBundleIdentifier=com.YeahBoi.Ed_Midi_Test"/>
-					<Add option="-DJucePlugin_AAXIdentifier=com.YeahBoi.Ed_Midi_Test"/>
-					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
-					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_AAXCategory=0"/>
-					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
-					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
-					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
-					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
-					<Add option="-DJUCE_WEB_BROWSER=0"/>
-					<Add option="-DJUCE_USE_CURL=0"/>
-					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
-					<Add option="-DLINUX=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
-					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
-					<Add option="-DJucePlugin_Build_AU=0"/>
-					<Add option="-DJucePlugin_Build_AUv3=0"/>
-					<Add option="-DJucePlugin_Build_AAX=0"/>
-					<Add option="-DJucePlugin_Build_Standalone=1"/>
-					<Add option="-DJucePlugin_Build_Unity=0"/>
-					<Add option="-DJucePlugin_Build_VST=0"/>
-					<Add option="-DJucePlugin_Build_VST3=0"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
-					<Add directory="/usr/include/freetype2"/>
-					<Add directory="/usr/include/libpng16"/>
-					<Add directory="/usr/include/harfbuzz"/>
-					<Add directory="/usr/include/glib-2.0"/>
-					<Add directory="/usr/lib/glib-2.0/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_Standalone"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ed_Midi_Test_Standalone/fast">
-				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/Standalone/Ed_Midi_Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="0"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
-					<Add option="-DDEBUG=1"/>
-					<Add option="-D_DEBUG=1"/>
-					<Add option="-DJucePlugin_IsSynth=0"/>
-					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
-					<Add option="-DJucePlugin_Manufacturer=&quot;YeahBoi&quot;"/>
-					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
-					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
-					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
-					<Add option="-DJucePlugin_ProducesMidiOutput=1"/>
-					<Add option="-DJucePlugin_IsMidiEffect=0"/>
-					<Add option="-DJucePlugin_WantsMidiInput=1"/>
-					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
-					<Add option="-DJucePlugin_Name=&quot;Ed_Midi_Test&quot;"/>
-					<Add option="-DJucePlugin_Desc=&quot;Ed_Midi_Test&quot;"/>
-					<Add option="-DJucePlugin_Version=0.0.1"/>
-					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
-					<Add option="-DJucePlugin_VersionCode=0x1"/>
-					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
-					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
-					<Add option="-DJucePlugin_AUMainType=&apos;aumf&apos;"/>
-					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_AUExportPrefix=Ed_Midi_TestAU"/>
-					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Ed_Midi_TestAU&quot;"/>
-					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
-					<Add option="-DJucePlugin_CFBundleIdentifier=com.YeahBoi.Ed_Midi_Test"/>
-					<Add option="-DJucePlugin_AAXIdentifier=com.YeahBoi.Ed_Midi_Test"/>
-					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
-					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
-					<Add option="-DJucePlugin_AAXCategory=0"/>
-					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
-					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
-					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
-					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
-					<Add option="-DJUCE_WEB_BROWSER=0"/>
-					<Add option="-DJUCE_USE_CURL=0"/>
-					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
-					<Add option="-DLINUX=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
-					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
-					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
-					<Add option="-DJucePlugin_Build_AU=0"/>
-					<Add option="-DJucePlugin_Build_AUv3=0"/>
-					<Add option="-DJucePlugin_Build_AAX=0"/>
-					<Add option="-DJucePlugin_Build_Standalone=1"/>
-					<Add option="-DJucePlugin_Build_Unity=0"/>
-					<Add option="-DJucePlugin_Build_VST=0"/>
-					<Add option="-DJucePlugin_Build_VST3=0"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
-					<Add directory="/usr/include/freetype2"/>
-					<Add directory="/usr/include/libpng16"/>
-					<Add directory="/usr/include/harfbuzz"/>
-					<Add directory="/usr/include/glib-2.0"/>
-					<Add directory="/usr/lib/glib-2.0/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_Standalone/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Ed_Midi_Test_All">
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+			<Target title="install/local">
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_All"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ed_Midi_Test_AU">
+				<Option output="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/AU/Ed_Midi_Test.component/Contents/MacOS/Ed_Midi_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;YeahBoi&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=1"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=1"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aumf&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Ed_Midi_TestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Ed_Midi_TestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=1"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_AU"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ed_Midi_Test_AU/fast">
+				<Option output="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/AU/Ed_Midi_Test.component/Contents/MacOS/Ed_Midi_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;YeahBoi&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=1"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=1"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aumf&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Ed_Midi_TestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Ed_Midi_TestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=1"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_AU/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ed_Midi_Test_Standalone">
+				<Option output="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/Standalone/Ed_Midi_Test.app/Contents/MacOS/Ed_Midi_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;YeahBoi&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=1"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=1"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aumf&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Ed_Midi_TestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Ed_Midi_TestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_Standalone"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ed_Midi_Test_Standalone/fast">
+				<Option output="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/Standalone/Ed_Midi_Test.app/Contents/MacOS/Ed_Midi_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;YeahBoi&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=1"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=1"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aumf&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Ed_Midi_TestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Ed_Midi_TestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_Standalone/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ed_Midi_Test_VST3">
+				<Option output="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/VST3/Ed_Midi_Test.vst3/Contents/MacOS/Ed_Midi_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;YeahBoi&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=1"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=1"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aumf&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Ed_Midi_TestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Ed_Midi_TestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add directory="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_VST3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ed_Midi_Test_VST3/fast">
+				<Option output="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/VST3/Ed_Midi_Test.vst3/Contents/MacOS/Ed_Midi_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;YeahBoi&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x44656d30"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=1"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=1"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Ed_Midi_Test&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aumf&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Ed_Midi_TestAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Ed_Midi_TestAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.YeahBoi.Ed_Midi_Test"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add directory="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_VST3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ed_Midi_Test_All">
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test_All"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ed_Midi_Test">
-				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/libEd_Midi_Test_SharedCode.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option output="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/libEd_Midi_Test_SharedCode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AU=1"/>
 					<Add option="-DJucePlugin_Build_AUv3=0"/>
 					<Add option="-DJucePlugin_Build_AAX=0"/>
 					<Add option="-DJucePlugin_Build_Standalone=1"/>
@@ -491,7 +625,6 @@
 					<Add option="-DJUCE_USE_CURL=0"/>
 					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
-					<Add option="-DLINUX=1"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
@@ -505,37 +638,31 @@
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
-					<Add directory="/usr/include/freetype2"/>
-					<Add directory="/usr/include/libpng16"/>
-					<Add directory="/usr/include/harfbuzz"/>
-					<Add directory="/usr/include/glib-2.0"/>
-					<Add directory="/usr/lib/glib-2.0/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ed_Midi_Test/fast">
-				<Option output="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/libEd_Midi_Test_SharedCode.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
+				<Option output="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/Debug/libEd_Midi_Test_SharedCode.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AU=1"/>
 					<Add option="-DJucePlugin_Build_AUv3=0"/>
 					<Add option="-DJucePlugin_Build_AAX=0"/>
 					<Add option="-DJucePlugin_Build_Standalone=1"/>
@@ -580,7 +707,6 @@
 					<Add option="-DJUCE_USE_CURL=0"/>
 					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
-					<Add option="-DLINUX=1"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
@@ -594,195 +720,268 @@
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
 					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules"/>
-					<Add directory="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
-					<Add directory="/usr/include/freetype2"/>
-					<Add directory="/usr/include/libpng16"/>
-					<Add directory="/usr/include/harfbuzz"/>
-					<Add directory="/usr/include/glib-2.0"/>
-					<Add directory="/usr/lib/glib-2.0/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules"/>
+					<Add directory="/Users/edwardgallyot/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ed_Midi_Test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_basics/juce_audio_basics.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_devices/juce_audio_devices.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_formats/juce_audio_formats.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp">
-			<Option target="Ed_Midi_Test_VST3"/>
+		<Unit filename="/Users/edwardgallyot/JUCE/extras/Build/CMake/RecentFilesMenuTemplate.nib">
 			<Option target="Ed_Midi_Test_Standalone"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_1.cpp">
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_basics/juce_audio_basics.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_basics/juce_audio_basics.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_devices/juce_audio_devices.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_devices/juce_audio_devices.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_formats/juce_audio_formats.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_formats/juce_audio_formats.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
 			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU.r">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS.r">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_1.cpp">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_2.cpp">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_3.cpp">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_4.cpp">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_utils.mm">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST_utils.mm">
+			<Option target="Ed_Midi_Test_AU"/>
+			<Option target="Ed_Midi_Test_Standalone"/>
+			<Option target="Ed_Midi_Test_VST3"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_processors/juce_audio_processors.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_processors/juce_audio_processors.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_utils/juce_audio_utils.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_audio_utils/juce_audio_utils.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_core/juce_core.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_core/juce_core.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_data_structures/juce_data_structures.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_data_structures/juce_data_structures.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_events/juce_events.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_events/juce_events.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_graphics/juce_graphics.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_graphics/juce_graphics.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_gui_basics/juce_gui_basics.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_gui_basics/juce_gui_basics.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_gui_extra/juce_gui_extra.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE/modules/juce_gui_extra/juce_gui_extra.mm">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/MidiProcessor.cpp">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/MidiProcessor.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/PluginEditor.cpp">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/PluginEditor.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/PluginProcessor.cpp">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/PluginProcessor.h">
+			<Option target="Ed_Midi_Test"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_AU/PkgInfo">
+			<Option target="Ed_Midi_Test_AU"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_AU/PkgInfo.rule">
+			<Option target="Ed_Midi_Test_AU"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_AU/secret/Ed_Midi_Test.rsrc">
+			<Option target="Ed_Midi_Test_AU"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_AU/secret/Ed_Midi_Test.rsrc.rule">
+			<Option target="Ed_Midi_Test_AU"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_AU/secret/JucePluginDefines.h.rule">
+			<Option target="Ed_Midi_Test_AU"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_Standalone/PkgInfo">
 			<Option target="Ed_Midi_Test_Standalone"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_2.cpp">
-			<Option target="Ed_Midi_Test_VST3"/>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_Standalone/PkgInfo.rule">
 			<Option target="Ed_Midi_Test_Standalone"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_3.cpp">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_VST3/PkgInfo">
 			<Option target="Ed_Midi_Test_VST3"/>
-			<Option target="Ed_Midi_Test_Standalone"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_4.cpp">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_VST3/PkgInfo.rule">
 			<Option target="Ed_Midi_Test_VST3"/>
-			<Option target="Ed_Midi_Test_Standalone"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_utils.cpp">
-			<Option target="Ed_Midi_Test_VST3"/>
-			<Option target="Ed_Midi_Test_Standalone"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp">
-			<Option target="Ed_Midi_Test_VST3"/>
-			<Option target="Ed_Midi_Test_Standalone"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp">
-			<Option target="Ed_Midi_Test_VST3"/>
-			<Option target="Ed_Midi_Test_Standalone"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp">
-			<Option target="Ed_Midi_Test_VST3"/>
-			<Option target="Ed_Midi_Test_Standalone"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp">
-			<Option target="Ed_Midi_Test_VST3"/>
-			<Option target="Ed_Midi_Test_Standalone"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/JuceHeader.h">
 			<Option target="Ed_Midi_Test"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/JuceHeader.h.rule">
 			<Option target="Ed_Midi_Test"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_processors/juce_audio_processors.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_audio_utils/juce_audio_utils.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_core/juce_core.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_core/juce_core.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_data_structures/juce_data_structures.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_data_structures/juce_data_structures.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_events/juce_events.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_events/juce_events.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_graphics/juce_graphics.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_graphics/juce_graphics.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_gui_basics/juce_gui_basics.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_gui_extra/juce_gui_extra.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/MidiProcessor.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/MidiProcessor.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/PluginEditor.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/PluginEditor.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/PluginProcessor.cpp">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/PluginProcessor.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/JuceHeader.h">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/JuceHeader.h.rule">
-			<Option target="Ed_Midi_Test"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/CMakeLists.txt">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/CMakeLists.txt">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_AU/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_AU\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_Standalone/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_Standalone\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/Ed_Midi_Test_artefacts/JuceLibraryCode/Ed_Midi_Test_VST3/Info.plist">
+			<Option virtualFolder="CMake Files\cmake-build-debug\Ed_Midi_Test_artefacts\JuceLibraryCode\Ed_Midi_Test_VST3\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/[/Users/edwardgallyot/JUCE]/tools/JUCEToolsExport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\[\Users\edwardgallyot\JUCE]\tools\"/>
+		</Unit>
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\..\..\JUCE\"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMakeLists.txt">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCECheckAtomic.cmake">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCECheckAtomic.cmake">
 			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEConfig.cmake.in">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEConfig.cmake.in">
 			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEHelperTargets.cmake">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEHelperTargets.cmake">
 			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEModuleSupport.cmake">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEModuleSupport.cmake">
 			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEUtils.cmake">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/CMake/JUCEUtils.cmake">
 			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/juceaide/CMakeLists.txt">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/extras/Build/juceaide/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\juceaide\"/>
 		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/modules/CMakeLists.txt">
+		<Unit filename="/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/../../JUCE/modules/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\..\..\JUCE\modules\"/>
-		</Unit>
-		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_CMake_Projects/Ed_Midi_Test/cmake-build-debug/[/home/edgallyot/drives/2TB_SSD/Documents/JUCE]/tools/JUCEToolsExport.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\[\home\edgallyot\drives\2TB_SSD\Documents\JUCE]\tools\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

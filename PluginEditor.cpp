@@ -22,7 +22,7 @@ void AudioPluginAudioProcessorEditor::paint (juce::Graphics& g)
     g.fillAll (juce::Colours::hotpink);
 
     g.setColour (juce::Colours::white);
-    g.setFont (15.0f);
+    g.setFont (18.0f);
     g.drawFittedText ("MIDI Plugin Test", getLocalBounds(), juce::Justification::centred, 1);
 }
 

@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1CBBF8AB182746688D4DC1B9 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8FC28016D0C54A0D84F1A649 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A0CA29CF080FA1168EFB99F4 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				6459AEDD2477468F84E50C27 /* PBXTargetDependency */,
+				8356596751F74DFB9D50ECCA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		2ACE8B87952543288A30DE68 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2176DAB101D44E72AD751D80 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				4539213715E24057B95996CC /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		B433E5DA57A849489EC12919 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0BC032897290499A803D6409 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B078165BCC7F684CEB3230EF /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		102AB43B65B044A4B95C8C24 /* /Users/edwardgallyot/JUCE/modules/juce_gui_basics/juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = D363315AA156458ABBE03ACF /* /Users/edwardgallyot/JUCE/modules/juce_gui_basics/juce_gui_basics.mm */; };
+		55680CDC6FEF451D9EE2A538 /* /Users/edwardgallyot/JUCE/modules/juce_core/juce_core.mm */ = {isa = PBXBuildFile; fileRef = 47331666077C45A38938D7CE /* /Users/edwardgallyot/JUCE/modules/juce_core/juce_core.mm */; };
+		89D98470C89B4FB8A6180ED3 /* /Users/edwardgallyot/JUCE/modules/juce_data_structures/juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = 79FA7E5578734E94BF145F68 /* /Users/edwardgallyot/JUCE/modules/juce_data_structures/juce_data_structures.mm */; };
+		8DB7070BBFE341E390F7655F /* /Users/edwardgallyot/JUCE/extras/Build/juce_build_tools/juce_build_tools.cpp */ = {isa = PBXBuildFile; fileRef = A5136C7DAD52410396C25A98 /* /Users/edwardgallyot/JUCE/extras/Build/juce_build_tools/juce_build_tools.cpp */; };
+		9AC6B58A9A424527A5230FFD /* /Users/edwardgallyot/JUCE/modules/juce_graphics/juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 81D73DA85C244768B4914283 /* /Users/edwardgallyot/JUCE/modules/juce_graphics/juce_graphics.mm */; };
+		A44703E4A7FA4F99B81EABA7 /* /Users/edwardgallyot/JUCE/modules/juce_events/juce_events.mm */ = {isa = PBXBuildFile; fileRef = 00009FF4E66B4095B3D4752B /* /Users/edwardgallyot/JUCE/modules/juce_events/juce_events.mm */; };
+		C613C2C6137F4E09A0E2AD0B /* /Users/edwardgallyot/JUCE/extras/Build/juceaide/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 05FF9DD161B44ABFB751994C /* /Users/edwardgallyot/JUCE/extras/Build/juceaide/CMakeLists.txt */; };
+		C9788B88AC614F31834582C9 /* /Users/edwardgallyot/JUCE/extras/Build/juceaide/Main.cpp */ = {isa = PBXBuildFile; fileRef = 3940879415AE4042977AC7F0 /* /Users/edwardgallyot/JUCE/extras/Build/juceaide/Main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3D542B085DA748F18B9520E6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		511D1A3B49AC4FE680C0E9DB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		668C0E93DA2547BE8A1040BE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		DE34CD9C567D4B40AACAA9F5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		04FE0E540DCE40A49848B98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA0C490AB6D44177A0ADEE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAB984D229D74EA0B9EB4DCE;
+			remoteInfo = juceaide;
+		};
+		098C4E097FF6485E8895369B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA0C490AB6D44177A0ADEE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B433E5DA57A849489EC12919;
+			remoteInfo = ZERO_CHECK;
+		};
+		1A6C5D4FD9884B0D8F23A77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA0C490AB6D44177A0ADEE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBBF8AB182746688D4DC1B9;
+			remoteInfo = ALL_BUILD;
+		};
+		963F49DD35544EA5B37EFD85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA0C490AB6D44177A0ADEE0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B433E5DA57A849489EC12919;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00009FF4E66B4095B3D4752B /* /Users/edwardgallyot/JUCE/modules/juce_events/juce_events.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_events.mm; path = modules/juce_events/juce_events.mm; sourceTree = SOURCE_ROOT; };
+		05FF9DD161B44ABFB751994C /* /Users/edwardgallyot/JUCE/extras/Build/juceaide/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = extras/Build/juceaide/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3940879415AE4042977AC7F0 /* /Users/edwardgallyot/JUCE/extras/Build/juceaide/Main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Main.cpp; path = extras/Build/juceaide/Main.cpp; sourceTree = SOURCE_ROOT; };
+		47331666077C45A38938D7CE /* /Users/edwardgallyot/JUCE/modules/juce_core/juce_core.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_core.mm; path = modules/juce_core/juce_core.mm; sourceTree = SOURCE_ROOT; };
+		4F7A264C060D4C048DA3BF2E /* /Users/edwardgallyot/JUCE/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		79FA7E5578734E94BF145F68 /* /Users/edwardgallyot/JUCE/modules/juce_data_structures/juce_data_structures.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_data_structures.mm; path = modules/juce_data_structures/juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
+		81D73DA85C244768B4914283 /* /Users/edwardgallyot/JUCE/modules/juce_graphics/juce_graphics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_graphics.mm; path = modules/juce_graphics/juce_graphics.mm; sourceTree = SOURCE_ROOT; };
+		A5136C7DAD52410396C25A98 /* /Users/edwardgallyot/JUCE/extras/Build/juce_build_tools/juce_build_tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_build_tools.cpp; path = extras/Build/juce_build_tools/juce_build_tools.cpp; sourceTree = SOURCE_ROOT; };
+		D363315AA156458ABBE03ACF /* /Users/edwardgallyot/JUCE/modules/juce_gui_basics/juce_gui_basics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_gui_basics.mm; path = modules/juce_gui_basics/juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
+		E7C8E3B746CF4D66B7E59B36 /* juceaide */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = juceaide; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C442E56F0F01423BAA7E626D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12601F8158374C9CB18E16F8 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8E67182C51A446E194A17E42 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5136C7DAD52410396C25A98 /* /Users/edwardgallyot/JUCE/extras/Build/juce_build_tools/juce_build_tools.cpp */,
+				3940879415AE4042977AC7F0 /* /Users/edwardgallyot/JUCE/extras/Build/juceaide/Main.cpp */,
+				47331666077C45A38938D7CE /* /Users/edwardgallyot/JUCE/modules/juce_core/juce_core.mm */,
+				79FA7E5578734E94BF145F68 /* /Users/edwardgallyot/JUCE/modules/juce_data_structures/juce_data_structures.mm */,
+				00009FF4E66B4095B3D4752B /* /Users/edwardgallyot/JUCE/modules/juce_events/juce_events.mm */,
+				81D73DA85C244768B4914283 /* /Users/edwardgallyot/JUCE/modules/juce_graphics/juce_graphics.mm */,
+				D363315AA156458ABBE03ACF /* /Users/edwardgallyot/JUCE/modules/juce_gui_basics/juce_gui_basics.mm */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9CEE3093049945C7A13A231C = {
+			isa = PBXGroup;
+			children = (
+				B31ED8FA553E43F1992411BC /* ALL_BUILD */,
+				C76420739D4144A685022102 /* juceaide */,
+				D355577DEF2C421DB9480C90 /* Products */,
+				FA7EF0B9C45446F195B55344 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B31ED8FA553E43F1992411BC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				12601F8158374C9CB18E16F8 /* CMake Rules */,
+				4F7A264C060D4C048DA3BF2E /* /Users/edwardgallyot/JUCE/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C76420739D4144A685022102 /* juceaide */ = {
+			isa = PBXGroup;
+			children = (
+				8E67182C51A446E194A17E42 /* Source Files */,
+				05FF9DD161B44ABFB751994C /* /Users/edwardgallyot/JUCE/extras/Build/juceaide/CMakeLists.txt */,
+			);
+			name = juceaide;
+			sourceTree = "<group>";
+		};
+		D355577DEF2C421DB9480C90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C8E3B746CF4D66B7E59B36 /* juceaide */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7EF0B9C45446F195B55344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB984D229D74EA0B9EB4DCE /* juceaide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3476B571C63F495090779D8D /* Build configuration list for PBXNativeTarget "juceaide" */;
+			buildPhases = (
+				2A11750094CF4A5585B6E10F /* Sources */,
+				C442E56F0F01423BAA7E626D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F05FD6FB17847FAA6430FAC /* PBXTargetDependency */,
+			);
+			name = juceaide;
+			productName = juceaide;
+			productReference = E7C8E3B746CF4D66B7E59B36 /* juceaide */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA0C490AB6D44177A0ADEE0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1230;
+			};
+			buildConfigurationList = BB951F9701994E5D92682193 /* Build configuration list for PBXProject "JUCE" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				511D1A3B49AC4FE680C0E9DB /* Debug */,
+				668C0E93DA2547BE8A1040BE /* Release */,
+				DE34CD9C567D4B40AACAA9F5 /* MinSizeRel */,
+				3D542B085DA748F18B9520E6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9CEE3093049945C7A13A231C;
+			projectDirPath = /Users/edwardgallyot/JUCE;
+			projectRoot = "";
+			targets = (
+				1CBBF8AB182746688D4DC1B9 /* ALL_BUILD */,
+				B433E5DA57A849489EC12919 /* ZERO_CHECK */,
+				2ACE8B87952543288A30DE68 /* install */,
+				BAB984D229D74EA0B9EB4DCE /* juceaide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  /usr/local/Cellar/cmake/3.19.7/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A0CA29CF080FA1168EFB99F4 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B078165BCC7F684CEB3230EF /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  make -f /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  make -f /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  make -f /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools
+  make -f /Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A11750094CF4A5585B6E10F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB7070BBFE341E390F7655F /* /Users/edwardgallyot/JUCE/extras/Build/juce_build_tools/juce_build_tools.cpp */,
+				C9788B88AC614F31834582C9 /* /Users/edwardgallyot/JUCE/extras/Build/juceaide/Main.cpp */,
+				55680CDC6FEF451D9EE2A538 /* /Users/edwardgallyot/JUCE/modules/juce_core/juce_core.mm */,
+				89D98470C89B4FB8A6180ED3 /* /Users/edwardgallyot/JUCE/modules/juce_data_structures/juce_data_structures.mm */,
+				A44703E4A7FA4F99B81EABA7 /* /Users/edwardgallyot/JUCE/modules/juce_events/juce_events.mm */,
+				9AC6B58A9A424527A5230FFD /* /Users/edwardgallyot/JUCE/modules/juce_graphics/juce_graphics.mm */,
+				102AB43B65B044A4B95C8C24 /* /Users/edwardgallyot/JUCE/modules/juce_gui_basics/juce_gui_basics.mm */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F05FD6FB17847FAA6430FAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B433E5DA57A849489EC12919 /* ZERO_CHECK */;
+			targetProxy = 963F49DD35544EA5B37EFD85 /* PBXContainerItemProxy */;
+		};
+		4539213715E24057B95996CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CBBF8AB182746688D4DC1B9 /* ALL_BUILD */;
+			targetProxy = 1A6C5D4FD9884B0D8F23A77D /* PBXContainerItemProxy */;
+		};
+		6459AEDD2477468F84E50C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B433E5DA57A849489EC12919 /* ZERO_CHECK */;
+			targetProxy = 098C4E097FF6485E8895369B /* PBXContainerItemProxy */;
+		};
+		8356596751F74DFB9D50ECCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAB984D229D74EA0B9EB4DCE /* juceaide */;
+			targetProxy = 04FE0E540DCE40A49848B98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		040A72473A62416E9B7B11BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		09EE210038574A39B2116358 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/build";
+			};
+			name = MinSizeRel;
+		};
+		0F3AD2207E3140A3960FB710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0FFB5824E23C461F9194BEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		18C315C4BDA14E9986BAD6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1B993238E1BC4C4EA26A9308 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide/juceaide_artefacts/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_STANDALONE_APPLICATION=1'","'JUCE_DISABLE_JUCE_VERSION_PRINTING=1'","'JUCE_USE_CURL=0'","'JUCE_MODULE_AVAILABLE_juce_build_tools=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'NDEBUG=1'","'_NDEBUG=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode\"",/Users/edwardgallyot/JUCE/extras/Build,/Users/edwardgallyot/JUCE/modules);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Woverloaded-virtual -Wreorder -Wconstant-conversion -Wsign-conversion -Wunused-private-field -Wbool-conversion -Wextra-semi -Wunreachable-code -Wzero-as-null-pointer-constant -Wcast-align -Winconsistent-missing-destructor-override -Wshift-sign-overflow -Wnullable-to-nonnull-conversion -Wno-missing-field-initializers -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Carbon","-framework QuartzCore","-framework Cocoa","-framework Foundation","-framework IOKit");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = juceaide;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2D015CBD1619446299566D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide/juceaide_artefacts/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_STANDALONE_APPLICATION=1'","'JUCE_DISABLE_JUCE_VERSION_PRINTING=1'","'JUCE_USE_CURL=0'","'JUCE_MODULE_AVAILABLE_juce_build_tools=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'NDEBUG=1'","'_NDEBUG=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode\"",/Users/edwardgallyot/JUCE/extras/Build,/Users/edwardgallyot/JUCE/modules);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -flto -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Woverloaded-virtual -Wreorder -Wconstant-conversion -Wsign-conversion -Wunused-private-field -Wbool-conversion -Wextra-semi -Wunreachable-code -Wzero-as-null-pointer-constant -Wcast-align -Winconsistent-missing-destructor-override -Wshift-sign-overflow -Wnullable-to-nonnull-conversion -Wno-missing-field-initializers -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Carbon","-framework QuartzCore","-framework Cocoa","-framework Foundation","-framework IOKit","-flto");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = juceaide;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3B5A6D31D0AB45F49D6AAD26 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/build";
+			};
+			name = RelWithDebInfo;
+		};
+		46C5BF02BAD741D5BAB89161 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		66270E0E3BB64B72B0304B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6D9944A9F3384774AC3A6C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7CA55B01F1AF49678EBF4CEB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		80ECB00BCF5C4CEEB72CFE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/build";
+			};
+			name = Release;
+		};
+		8DDCE3BD65DC4E6B9A9F707F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8DF652A45C8A42CF83C3D93A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/build";
+			};
+			name = Debug;
+		};
+		9F6A91F0EC1045009BCDEBCF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide/juceaide_artefacts/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_STANDALONE_APPLICATION=1'","'JUCE_DISABLE_JUCE_VERSION_PRINTING=1'","'JUCE_USE_CURL=0'","'JUCE_MODULE_AVAILABLE_juce_build_tools=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'NDEBUG=1'","'_NDEBUG=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode\"",/Users/edwardgallyot/JUCE/extras/Build,/Users/edwardgallyot/JUCE/modules);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Woverloaded-virtual -Wreorder -Wconstant-conversion -Wsign-conversion -Wunused-private-field -Wbool-conversion -Wextra-semi -Wunreachable-code -Wzero-as-null-pointer-constant -Wcast-align -Winconsistent-missing-destructor-override -Wshift-sign-overflow -Wnullable-to-nonnull-conversion -Wno-missing-field-initializers -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Carbon","-framework QuartzCore","-framework Cocoa","-framework Foundation","-framework IOKit");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = juceaide;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A0C238FCE9AC496B9A3EA9D7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AB96D25A35ED4E668D17F7D4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DD396D75FC6B45AAABBE6911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide/juceaide_artefacts/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_STANDALONE_APPLICATION=1'","'JUCE_DISABLE_JUCE_VERSION_PRINTING=1'","'JUCE_USE_CURL=0'","'JUCE_MODULE_AVAILABLE_juce_build_tools=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'DEBUG=1'","'_DEBUG=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode\"",/Users/edwardgallyot/JUCE/extras/Build,/Users/edwardgallyot/JUCE/modules);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Woverloaded-virtual -Wreorder -Wconstant-conversion -Wsign-conversion -Wunused-private-field -Wbool-conversion -Wextra-semi -Wunreachable-code -Wzero-as-null-pointer-constant -Wcast-align -Winconsistent-missing-destructor-override -Wshift-sign-overflow -Wnullable-to-nonnull-conversion -Wno-missing-field-initializers -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-framework Carbon","-framework QuartzCore","-framework Cocoa","-framework Foundation","-framework IOKit");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = juceaide;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools/extras/Build/juceaide";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E0779DBF5464487097C340FB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/edwardgallyot/JUCE_CMake_Projects/Ed_Midi_Test/xcode-build/[/Users/edwardgallyot/JUCE]/tools";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC032897290499A803D6409 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F3AD2207E3140A3960FB710 /* Debug */,
+				040A72473A62416E9B7B11BC /* Release */,
+				AB96D25A35ED4E668D17F7D4 /* MinSizeRel */,
+				46C5BF02BAD741D5BAB89161 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2176DAB101D44E72AD751D80 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FFB5824E23C461F9194BEC5 /* Debug */,
+				66270E0E3BB64B72B0304B20 /* Release */,
+				7CA55B01F1AF49678EBF4CEB /* MinSizeRel */,
+				E0779DBF5464487097C340FB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3476B571C63F495090779D8D /* Build configuration list for PBXNativeTarget "juceaide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD396D75FC6B45AAABBE6911 /* Debug */,
+				2D015CBD1619446299566D3D /* Release */,
+				1B993238E1BC4C4EA26A9308 /* MinSizeRel */,
+				9F6A91F0EC1045009BCDEBCF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FC28016D0C54A0D84F1A649 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9944A9F3384774AC3A6C6F /* Debug */,
+				18C315C4BDA14E9986BAD6F9 /* Release */,
+				A0C238FCE9AC496B9A3EA9D7 /* MinSizeRel */,
+				8DDCE3BD65DC4E6B9A9F707F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB951F9701994E5D92682193 /* Build configuration list for PBXProject "JUCE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF652A45C8A42CF83C3D93A /* Debug */,
+				80ECB00BCF5C4CEEB72CFE9F /* Release */,
+				09EE210038574A39B2116358 /* MinSizeRel */,
+				3B5A6D31D0AB45F49D6AAD26 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA0C490AB6D44177A0ADEE0F /* Project object */;
+}
